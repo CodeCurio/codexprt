@@ -1,0 +1,18 @@
+.tittle{
+    text-align: center;
+    color: #212ea0;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+.tittle h2{
+    font-size: 35px;
+    color: rgb(32, 30, 66);
+    
+}
+.tittle p{
+    font-size: 20px;
+    font-weight: 600;
+}

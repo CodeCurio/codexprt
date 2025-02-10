@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  font-family: "Outfit", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  background: #f5f5f5;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+.container{
+  padding-left:10%;
+  padding-right:10%;
+}
+.btn{
+  background: #fff;
+  color: #212121;
+  padding: 14px 25px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+}
+.dark-btn{
+  background:#212EA0;
+  color: #ffffff;
+  padding: 14px 25px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+.btn {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* When navbar is scrolled, change button styles */
+nav.scrolled .btn {
+  background-color: black; 
+  color: white; 
+  border: 1px solid black; 
+}
+
+nav.scrolled .btn:hover {
+  background-color: white;
+  color: black;
+}
+/* Media Querry */
+
+@media (max-width: 1200px){
+    .container{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .btn{
+      padding: 14px 22px;
+    }
+}
