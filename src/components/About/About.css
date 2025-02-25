@@ -37,14 +37,31 @@
 @media (max-width: 800px){
     .about{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
     }
     .about-left{
         flex-basis: 100%;
-        margin: 20px;
+        margin-left: 13vw;
         order: 2;
     }
     .about-right{
         flex-basis: 100%;
         width: 80vw;
+        margin-left: 20vw;
+        margin-bottom: 10vh;
+    }
+    .about .about-right p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 650px){
+    .about-right{
+        flex-basis: 100%;
+        width: 80vw;
+        margin-right: 20vw;
+        margin-bottom: 10vh;
     }
 }

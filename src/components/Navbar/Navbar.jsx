@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
-import Logo from "../../assets/Logo.jpg";
+import Logo from "../../assets/Logo.png";
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <nav className={`container ${scrolling ? "scrolled" : ""}`}>
-      <h1>Yash Web Solution</h1>
+      <h1>CodeXpert</h1>
       <ul className={mobileMenu?'':'hide-mobile-menu'}>
         <li><Link to='Hero' smooth={true} offset={0} duration={500}>Home</Link></li>
         <li><Link to='services' smooth={true} offset={-260} duration={500}>Services</Link></li>

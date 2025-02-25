@@ -11,9 +11,9 @@ const About = () => {
       </div>
       <div className="about-right">
         <h3>About Us</h3>
-        <h2>About Yash Web Solution</h2>
+        <h2>About CodeXpert</h2>
         <p>
-          At Yash Web Solution, we help businesses establish a strong online
+          At CodeXpert, we help businesses establish a strong online
           presence with expert web development and Google My Business (GMB)
           services. Our goal is to enhance your brand visibility, improve local
           search rankings, and drive more organic traffic to your business. We

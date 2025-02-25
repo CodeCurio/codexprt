@@ -39,3 +39,17 @@
     display: block;
     margin: 20px 0;
 }
+
+
+@media (max-width: 650px){
+    .contact{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .contact-col{
+        align-items: center;
+        justify-content: center;
+    }
+}
