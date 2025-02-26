@@ -69,4 +69,12 @@ nav.scrolled .btn:hover {
     .btn{
       padding: 14px 22px;
     }
+    iframe{
+      width: 900px;
+    }
+}
+@media (max-width:500px){
+  iframe{
+    width: 350px;
+  }
 }

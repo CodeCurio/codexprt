@@ -17,6 +17,8 @@ const App = () => {
         <About/>
         <Tittle subtittle='Contact Us' tittle='Get In Touch'/>
         <Contact/>
+        <Tittle subtittle='Our Location' tittle='Find Us On Maps'/>
+        <iframe width="1100" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=620&amp;height=600&amp;hl=en&amp;q=%20Kursi%20Rd,%20Tedhi%20Pulia,%20Gaurabagh%20Lucknow+(codexprt)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
         <Footer/>
       </div>
     </div>
