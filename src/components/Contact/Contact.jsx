@@ -39,7 +39,7 @@ const Contact = () => {
         <ul>
             <li>📧 yourwebcoderr@gmail.com</li>
             <li>📞 +919305030523</li>
-            <li>📍Shop no. 48, near Smart Point, Civil Line, Jhanjhari Block,<br/>Gonda, Uttar Pradesh 271001</li>
+            <li>📍 Shop NO. 6, Kursi Rd, Tedhi Pulia, Gaurabagh<br/>Lucnkow, Uttar Pradesh 226022</li>
         </ul>
       </div>
       <div className="contact-col">
